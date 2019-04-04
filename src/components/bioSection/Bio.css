@@ -1,0 +1,33 @@
+.bio{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+
+}
+ .bio-img{
+    width:30%; 
+
+    margin:auto;
+}
+.bio-img img{ 
+    margin:auto
+}
+.bio-container{    
+    width:50%;
+    margin:auto;
+}
+#bio{
+    font-size: 20px;
+    font-family: "Roboto";
+}
+@media only screen and (max-width: 600px) {
+    .bio{
+        display:block;
+    }
+    .bio-img, .bio-container{
+        width:100%;
+    }
+}
